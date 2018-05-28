@@ -24,7 +24,7 @@ var page ={
   					self.close();
   				})
   			$(".card").on("click", function(){
-  				let $url = "https://gentle-peak-67938.herokuapp.com/",
+  				let $url = "https://dry-springs-16299.herokuapp.com/score.php",
   				$score = $(this).attr("data-score"); 
   				$.ajax({
    	 				url: $url,        
